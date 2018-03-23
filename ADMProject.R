@@ -1,5 +1,3 @@
-#ADM Project x16107608
-
 library(readr)
 library(caTools)
 library(e1071)
