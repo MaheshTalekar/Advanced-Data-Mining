@@ -65,27 +65,3 @@ Sprtvm <- predict(Sprtvm, test)
 table(test$Tag, Sprtvm)
 svm.accuracy.table <- as.data.frame(table(test$Tag, Sprtvm))
 print(paste("SVM accuracy is ", 100*round(((svm.accuracy.table$Freq[1]+svm.accuracy.table$Freq[4])/nrow(test)), 4), "%"))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
